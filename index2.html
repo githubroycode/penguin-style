@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Penguin</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans">
+
+  <!-- Header -->
+  <header class="bg-yellow-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
+      <h1 class="text-xl md:text-2xl font-bold text-slate-800">Penguin</h1>
+      <nav>
+        <ul class="flex gap-4 text-slate-700 text-sm md:text-base">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-yellow-50">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center px-4 py-12">
+      <!-- Text -->
+      <div>
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-800 leading-tight">
+          Be the Penguins <br />
+          <span class="text-amber-400">of Winter</span>
+        </h2>
+        <p class="mt-4 text-slate-600">Stylish and comfortable jackets for everyone.</p>
+        <button class="mt-6 py-3 px-6 md:py-4 md:px-8 rounded-xl text-white font-medium 
+          bg-gradient-to-r from-lime-500 to-lime-600 hover:opacity-90 transition">
+          BUY NOW
+        </button>
+      </div>
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="https://i.ibb.co/QXn7G7G/jacket.png" alt="Jacket" class="w-3/4 md:w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-2xl md:text-4xl font-bold text-slate-800 mb-8 text-center">Woman Jacket</h3>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Single Card -->
+        <div class="bg-white p-6 rounded-xl shadow">
+          <img src="https://i.ibb.co/L1b6xSq/jacket-1.png" alt="Jacket" class="w-full mb-4" />
+          <h4 class="text-lg font-semibold text-slate-800">Yellow Coat Jacket</h4>
+          <div class="flex justify-between items-center mt-4">
+            <span class="text-xl font-bold text-amber-400">$280</span>
+            <button class="py-2 px-4 rounded-lg text-white font-medium bg-lime-500 hover:bg-lime-600 transition">BUY</button>
+          </div>
+        </div>
+        
+        <!-- আর কার্ডগুলো কপি-পেস্ট করে বানাতে পারো -->
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
